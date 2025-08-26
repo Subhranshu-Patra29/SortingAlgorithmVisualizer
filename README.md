@@ -8,41 +8,44 @@
 
 - **Multiple Sorting Algorithms:**  
   Supports a wide range of algorithms including:
-  - Bead Sort
-  - Binary Insertion Sort
-  - Bitonic Sort
-  - Bogo Sort
-  - Bubble Sort
-  - Bucket Sort
-  - Circle Sort
-  - Cocktail Sort
-  - Comb Sort
-  - Counting Sort
-  - Cycle Sort
-  - Double Sort
-  - Exchange Sort
-  - Gnome Sort
-  - Heap Sort  
-  - Insertion Sort
-  - Intro Sort
-  - Iterative Merge Sort
-  - Merge Insertion Sort
-  - Merge Sort
-  - MSD Radix Sort
-  - Natural Sort
-  - Odd Even Sort
-  - Pancake Sort
-  - Patience Sort
-  - Pigeon Sort 
-  - Quick Sort
-  - Radix Sort
-  - Selection Sort
-  - Shell Sort
-  - Slow Sort
-  - Stooge Sort
-  - Strand Sort
-  - Tim Sort
-  - Tree Sort   
+
+| Sorting Algorithm       | Best Case       | Average Case    | Worst Case     | Space Complexity |
+|------------------------|----------------|----------------|----------------|----------------|
+| Bead Sort              | O(n + m)       | O(n + m)       | O(n + m)       | O(1)           |
+| Binary Insertion Sort  | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Bitonic Sort           | O(n log² n)    | O(n log² n)    | O(n log² n)    | O(n log² n)    |
+| Bogo Sort              | O(n)           | O(n!)          | O(n!)          | O(1)           |
+| Bubble Sort            | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Bucket Sort            | O(n + k)       | O(n + k)       | O(n²)          | O(n + k)       |
+| Circle Sort            | O(n)           | O(n log n)     | O(n²)          | O(n)           |
+| Cocktail Sort          | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Comb Sort              | O(n log n)     | O(n² / 2^p)   | O(n²)          | O(1)           |
+| Counting Sort          | O(n + k)       | O(n + k)       | O(n + k)       | O(k)           |
+| Cycle Sort             | O(n²)          | O(n²)          | O(n²)          | O(1)           |
+| Double Sort            | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Exchange Sort          | O(n²)          | O(n²)          | O(n²)          | O(1)           |
+| Gnome Sort             | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Heap Sort              | O(n log n)     | O(n log n)     | O(n log n)     | O(1)           |
+| Insertion Sort         | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Intro Sort             | O(n log n)     | O(n log n)     | O(n log n)     | O(log n)       |
+| Iterative Merge Sort   | O(n log n)     | O(n log n)     | O(n log n)     | O(n)           |
+| Merge Insertion Sort   | O(n log n)     | O(n log n)     | O(n log n)     | O(n)           |
+| Merge Sort             | O(n log n)     | O(n log n)     | O(n log n)     | O(n)           |
+| MSD Radix Sort         | O(nk)          | O(nk)          | O(nk)          | O(n + k)       |
+| Natural Sort           | O(n)           | O(n log n)     | O(n log n)     | O(n)           |
+| Odd Even Sort          | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Pancake Sort           | O(n)           | O(n²)          | O(n²)          | O(1)           |
+| Patience Sort          | O(n log n)     | O(n log n)     | O(n²)          | O(n)           |
+| Pigeon Sort            | O(n + m)       | O(n + m)       | O(n + m)       | O(m)           |
+| Quick Sort             | O(n log n)     | O(n log n)     | O(n²)          | O(log n)       |
+| Radix Sort             | O(nk)          | O(nk)          | O(nk)          | O(n + k)       |
+| Selection Sort         | O(n²)          | O(n²)          | O(n²)          | O(1)           |
+| Shell Sort             | O(n log n)     | O(n log² n)    | O(n²)          | O(1)           |
+| Slow Sort              | O(n)           | O(n log n)     | O(n²)          | O(1)           |
+| Stooge Sort            | O(n².709)      | O(n².709)      | O(n².709)      | O(1)           |
+| Strand Sort            | O(n)           | O(n²)          | O(n²)          | O(n)           |
+| Tim Sort               | O(n)           | O(n log n)     | O(n log n)     | O(n)           |
+| Tree Sort              | O(n log n)     | O(n log n)     | O(n²)          | O(n)           |
 
 - **Interactive Visualization:**  
   - Color-coded bars to indicate **comparisons, swaps, and sorted elements**.  
