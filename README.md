@@ -80,4 +80,8 @@ pip install pygame
 python src/main.py
 ```
 
-![Sorting Visualization](res/mergeSortRec.mp4)
+## Watch Demo
+
+To watch demo working, click here. 
+
+[![Watch the demo](res/thumbnail.png)](https://www.dropbox.com/scl/fi/d30w3fbn8cgxi49cka6ii/mergeSortRec.mp4?rlkey=ounqo2ju4oq3it4uc7g90828q&st=zixuyj9w&dl=0)
